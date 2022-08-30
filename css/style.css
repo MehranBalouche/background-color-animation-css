@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+*{
+    font-family: Vazirmatn;
+}
+body{
+    background-color: hsl(216, 25%, 95.1%);
+}
+
+.vh-100{
+  height: 100vh;
+}
+.vw-100{
+  width: 100vw;
+}
+.text-gold{
+  color:#FFD700;
+  /* text-shadow: 0 0 3px black ; */
+}
+
+/* bacground color Animation */
+.bg-animation{
+    animation: changeBg 5s infinite alternate linear;
+}
+
+@keyframes changeBg {
+  0%{
+    background: #ee6055;
+  }
+  25%{
+    background: #60d394;
+  }
+  50%{
+    background: #aaf683;
+  }
+  75%{
+    background: #ffd97d;
+  }
+  100%{
+    background: #ff9b85;
+  }
+}
+
+
+/* scroll style */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
+    border-radius: 10px;
+  }
+
+
+
+
+  
